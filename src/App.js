@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// import { MuiTypography } from "./components/MuiTypography";
+// import Profile from "./portfolioContainer/Home/Profile";
+// import { MuiButton } from "./components/MuiButton";
+// import { MuiTextField } from "./components/MuiTextFields";
+
+import { MuiBreadCrumbs } from "./components/MuiBreadCrumbs";
+// import { MuiNavbar } from "./components/MuiNavbar";
+
+// import { MuiLayout } from "./components/MuiLayout";
+// import { MuiSelect } from "./components/MuiSelect";
+
+// import { MuiButton } from "./components/MuiButton";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Profile /> */}
+      {/* mui */}
+      {/* <MuiTypography /> */}
+      {/* <MuiButton /> */}
+      {/* <MuiTextField /> */}
+      {/* <MuiLayout /> */}
+      {/* <MuiNavbar /> */}
+      <MuiBreadCrumbs />
     </div>
   );
 }
